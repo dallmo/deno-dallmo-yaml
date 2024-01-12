@@ -1,42 +1,21 @@
-# dallmo-yaml
+# this repo is obsoleted. 
 
-- a simple yaml file reader
-- re-written in typescript, migrated from nodejs to base only on deno standard libraries
+and migrated to https://deno.land/x/dallmo_util_yaml
 
+---
 
-## dependencies
+## background info
 
-all of deno standard library.
+this module was publised initially via the repo :
+https://github.com/dallmo/deno-modules
 
-- `Deno.readTextFile`
-- https://deno.land/std/yaml
+then tried switching to another repo for naming consistency ( and avoid a monorepo ) :
+https://github.com/dallmo/deno-dallmo-yaml
 
+but even emailed to modules@deno.com for the request, there is no response / reply for more than a few days.
+related stakeoverflow thread here
 
-## usage
+so instead of keeping waiting with no concrete schedule, both of the above repos will be obsoleted, and finally it would now be grouped under dallmo_util, or can be accessed directly as dallmo_util_yaml.
 
-```
-// this assumes the latest version
-import { dallmo_yaml } from "https://deno.land/x/dallmo_yaml/mod.ts";
-
-const config_file = "config.yaml";
-const config_obj = await dallmo_yaml( config_file );
-  console.log( config_obj );
-```
-
-
-## test
-to run test codes : 
-
-either : 
-
-run
-```
-deno task test
-```
-
-or : 
-
-1. switch to the folder "test" ; 
-1. run `deno test --allow-read` ; 
 
 
