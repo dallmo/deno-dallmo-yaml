@@ -1,7 +1,7 @@
 # dallmo-yaml
 
 - a simple yaml file reader
-- re-written to base only on deno standard libraries
+- re-written in typescript, migrated from nodejs to base only on deno standard libraries
 
 
 ## dependencies
