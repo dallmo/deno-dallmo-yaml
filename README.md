@@ -27,6 +27,16 @@ const config_obj = await dallmo_yaml( config_file );
 ## test
 to run test codes : 
 
+either : 
+
+run
+```
+deno task test
+```
+
+or : 
+
 1. switch to the folder "test" ; 
 1. run `deno test --allow-read` ; 
+
 
